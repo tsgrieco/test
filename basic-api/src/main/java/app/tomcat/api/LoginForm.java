@@ -8,6 +8,7 @@ package app.tomcat.api;
 import javax.ws.rs.FormParam;
 
 /**
+ * 
  * @author "Nick Hristov" <nhristov@tidemark.net>
  */
 public class LoginForm {
