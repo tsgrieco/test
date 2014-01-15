@@ -21,4 +21,10 @@ public interface UserService {
     @Produces({MediaType.APPLICATION_JSON})
     String deleteUser(@PathParam("id") String id);
 
+
+    @Path("user/{id}")
+@GET
+	@Produces({MediaType.APPLICATION_JSON})
+	String getUser(@PathParam("id") String id);
+
 }
