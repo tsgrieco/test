@@ -20,7 +20,7 @@ public class LoginForm {
     private String password;
 
     public String getUsername() {
-        return username + " is a cool guy";
+        return username;
     }
 
     public void setUsername(String username) {
