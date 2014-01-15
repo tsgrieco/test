@@ -1,0 +1,45 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="basic-webapp:war exploded">
+    <output-path>$PROJECT_DIR$/basic-webapp/target/basic-webapp-1.0-SNAPSHOT</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="basic-webapp/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="basic-webapp" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="archive" name="basic-api-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="basic-api" />
+          </element>
+          <element id="library" level="project" name="Maven: javax.ws.rs:jsr311-api:1.1.1" />
+          <element id="library" level="project" name="Maven: org.apache.cxf:cxf-bundle-jaxrs:2.5.1" />
+          <element id="library" level="project" name="Maven: org.apache.ws.xmlschema:xmlschema-core:2.0.1" />
+          <element id="library" level="project" name="Maven: org.codehaus.woodstox:woodstox-core-asl:4.1.1" />
+          <element id="library" level="project" name="Maven: org.codehaus.woodstox:stax2-api:3.1.1" />
+          <element id="library" level="project" name="Maven: org.apache.geronimo.specs:geronimo-stax-api_1.0_spec:1.0.1" />
+          <element id="library" level="project" name="Maven: org.apache.geronimo.specs:geronimo-annotation_1.0_spec:1.1.1" />
+          <element id="library" level="project" name="Maven: javax.xml.bind:jaxb-api:2.2.3" />
+          <element id="library" level="project" name="Maven: org.apache.neethi:neethi:3.0.1" />
+          <element id="library" level="project" name="Maven: wsdl4j:wsdl4j:1.6.2" />
+          <element id="library" level="project" name="Maven: org.apache.geronimo.specs:geronimo-activation_1.1_spec:1.1" />
+          <element id="library" level="project" name="Maven: com.sun.xml.bind:jaxb-impl:2.2.4-1" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-web:3.1.0.RELEASE" />
+          <element id="library" level="project" name="Maven: aopalliance:aopalliance:1.0" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-beans:3.1.0.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-core:3.1.0.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-asm:3.1.0.RELEASE" />
+          <element id="library" level="project" name="Maven: commons-logging:commons-logging:1.1.1" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context:3.1.0.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aop:3.0.6.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-expression:3.1.0.RELEASE" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.6.2" />
+          <element id="library" level="project" name="Maven: org.codehaus.jettison:jettison:1.3" />
+          <element id="archive" name="basic-api-impl-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="basic-api-impl" />
+          </element>
+          <element id="library" level="project" name="Maven: log4j:log4j:1.2.12" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
